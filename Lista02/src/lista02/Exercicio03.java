@@ -23,6 +23,8 @@ public class Exercicio03 {
      a) a maior idade dos habitantes;
      b) porcentagem de indivíduos do sexo feminino cuja idade esteja entre 18 e 35 anos, inclusive,
      e que tenham olhos verdes e cabelos louros
+    
+    SEM UTILIZAR ORIENTAÇÃO A OBJETOS
      */
     public static void main(String[] args) {
         ArrayList<String> nomes = new ArrayList();
@@ -75,7 +77,5 @@ public class Exercicio03 {
         } else {
             System.out.println("Nenhum participante cadastrado.");
         }
-
-        // TODO fazer a letra b
     }
 }
